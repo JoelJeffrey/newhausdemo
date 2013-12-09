@@ -1,0 +1,65 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #f8f0e8;
+}
+main {
+	margin: 0 auto;
+}
+.mastHead {
+	background-image: url(../images/brands.png);
+	background-repeat: repeat;
+	min-width: 1340px;
+	height: 770px;
+	padding-top: 105px;
+}
+.centerPiece {
+	background: #fff;
+	width: 480px;
+	height: 450px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
+	h4 {
+		font-size: 22px;
+		color: #87a6a3;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		padding-top: 140px;
+	}
+	h3 {
+		font-size: 50px;
+		color: #333;
+	}
+}
+.cycleContainer {
+	height: 600px;
+	background: #333;
+}
+.contactUs {
+	height: 950px;
+	background-image: url(../images/contactBackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.business {
+	height: 700px;
+}
+.location {
+	height: 550px;
+	// Place holder image for google API
+	background-image: url(../images/mapImage.jpg);
+	background-size: cover;
+}
+footer {
+	height: 60px;
+	li {
+		display: inline;
+		font-size: 18px;
+		padding: 0 40px 0 30px;
+		line-height: 60px;
+		text-transform: uppercase;
+	}
+}
